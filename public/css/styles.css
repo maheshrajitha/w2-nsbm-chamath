@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+}
+.shadow {
+    box-shadow: rgb(170, 152, 152) 5px 5px 5px;
+}
+
+.round {
+    border-radius: 20px;
+}
+.main-cards{
+    scale: 0.9;
+    transition: 2s;
+}
+
+.main-cards:hover{
+    scale: 1;
+    transition: 2s;
+}
+
+.bg-primary-gradient{
+    color: white;
+    background-image: linear-gradient(to right, rgb(149, 162, 189), rgb(15, 35, 100));
+}
+.gradient-btn-hover:hover{
+    font-weight: bold;
+}
+
+.main-parralax{
+    background-image: url(http://localhost:8000/main.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
